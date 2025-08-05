@@ -1,14 +1,14 @@
 $(document).ready(function () {
     
-    $('.text').texllate({
+    $('.text').textillate({
         loop: true,
         sync: true,
-        in: {
+        in:{
             effect: "bounceIn",
         },
-        out: {
+        out:{
             effect: "bounceOut",
         },
+    })
 
-    });
 });
